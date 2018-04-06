@@ -3,13 +3,9 @@
 *   @date 2/04/2018
 */
 
-#ifndef TEST_C
-#define TEST_C
-
-
 #include "test.h"
 
-
+// it's like a class.
 struct test Test = {
     .display = test_display,
     .assertTrue = test_assertTrue,
@@ -67,6 +63,3 @@ bool test_assertEqual_Int(int expected, int actual, char * message){
 
     return R;
 }
-
-
-#endif
