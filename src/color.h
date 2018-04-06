@@ -1,5 +1,5 @@
 #ifndef COLOR
-#define  COLLOR
+#define  COLOR
 
 
 // https://codereview.stackexchange.com/a/60681
