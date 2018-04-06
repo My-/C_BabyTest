@@ -38,6 +38,7 @@ bool shouldBe_True = imOlder(bobAge);
 Test.assertTrue(shouldBe_True, "I'm older then Bob");
 
 ```
+To run on Windows + VisualStudio hit run.
 To run (on Linx):
 ```bash
 # go to yours tests files folder
@@ -50,7 +51,7 @@ gcc ./*.c -o ./myTest.out
 So then you run it result is:
 
 > <p><span style="color:white">I'm older then Bob: </span> <span style="color:yellow"> true </span> - <span style="color:red"> FAIL </span><p>
-So you know what your implementation is wrong. Lets fix. Change function to:
+So you know what your implementation is wrong. Lets fix it. Change function to:
 ```C
 bool imOlder(int yourAge){
     // some creazy logic you not sure about
